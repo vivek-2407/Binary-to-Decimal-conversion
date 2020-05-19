@@ -1,0 +1,7 @@
+import random
+print("The random password is=")
+j=0
+while(j<random.randint(7,10)):
+    b=random.randint(33,126)
+    print(chr(b),end='')
+    j=j+1
